@@ -13,7 +13,7 @@ let todos = [
 
 // Home
 app.get("/", (req, res) => {
-    res.send("To-Do List API is Running");
+    res.send("API is Running");
 });
 
 // Get all todos
